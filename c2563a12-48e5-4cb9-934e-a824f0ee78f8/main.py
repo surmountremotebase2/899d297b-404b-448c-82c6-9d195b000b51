@@ -1,7 +1,8 @@
 #Type code here
 
 from surmount.base_class import Strategy, TargetAllocation
-from surmount.technical_indicators import SMA, EMA
+from surmount.technical_indicators import RSI, EMA, SMA, MACD, MFI, BB
+from surmount.logging import log
 
 class TradingStrategy(Strategy):
     @property
