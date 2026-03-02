@@ -19,7 +19,7 @@ class TradingStrategy(Strategy):
     
     def run(self, data):
         # Access the OHLCV data for QQQ to compute indicators
-        qqq_data = data["ohlcv"]
+        qqq_data = data["ohlcv"][0]
                 
         # Calculate the 8-day SMA, 2-day SMA, 3-day EMA, and 6-day EMA for QQQ
         sma_8d = SMA("QQQ", data["ohlcv"], 8)[-1]  # Last value of 8-day SMA
