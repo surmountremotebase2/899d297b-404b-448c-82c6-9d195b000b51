@@ -1,1 +1,1 @@
-{"allocations": {"TQQQ": 25.0, "SOXL": 25.0, "GDXU": 25.0, "SOXS": 25.0}, "frequency": 1, "name": "", "period": "days"}
+{"allocations": {"TQQQ": 25.0, "SOXL": 25.0, "GDXU": 25.0, "SOXS": 25.0}, "frequency": 30, "name": "Equilibrium Growth Strategy", "period": "days"}
