@@ -7,7 +7,7 @@ from surmount.logging import log
 class TradingStrategy(Strategy):
     @property
     def assets(self):
-        return ["SOXL", "SOXS"]
+        return ["SOXL", "SOXS", "QQQ"]
     
     @property
     def interval(self):
