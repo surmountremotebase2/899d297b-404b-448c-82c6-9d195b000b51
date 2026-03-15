@@ -14,7 +14,7 @@ class TradingStrategy(Strategy):
     @property
     def data(self):
         # No additional data sources are required beyond OHLCV
-        return []
+        return ["SOXL", "SOXS", "QQQ"]
     
     def run(self, data):
         allocation = {"SOXL": 0.0, "SOXS": 0.0}
